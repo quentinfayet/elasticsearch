@@ -1,0 +1,4 @@
+cluster.name: my_cluster
+node.name: "node_1"
+node.master: true
+discovery.zen.ping.multicast.enabled: true
