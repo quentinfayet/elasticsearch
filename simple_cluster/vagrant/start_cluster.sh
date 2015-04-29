@@ -5,3 +5,4 @@
 
 # Starting other nodes
 ./es_node2/bin/elasticsearch &
+
