@@ -1,0 +1,4 @@
+{
+	"query": { "match_all": {} },
+	"size": 1
+}

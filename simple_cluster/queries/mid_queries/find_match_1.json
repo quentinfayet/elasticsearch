@@ -1,0 +1,7 @@
+{
+  "query": {
+    "match": {
+      "account_number": 20
+    }
+  }
+}

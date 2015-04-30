@@ -1,0 +1,18 @@
+{
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "match": {
+            "address": "mill"
+          }
+        },
+        {
+          "match": {
+            "address": "lane"
+          }
+        }
+      ]
+    }
+  }
+}

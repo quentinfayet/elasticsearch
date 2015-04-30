@@ -1,0 +1,8 @@
+{
+	"query": { "match_all": {} },
+	"sort": {
+		"balance": {
+			"order": "desc"
+		}
+	}
+}
