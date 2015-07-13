@@ -1,4 +1,0 @@
-cluster.name: my_cluster
-node.name: "node_2"
-node.master: false
-discovery.zen.ping.multicast.enabled: true
