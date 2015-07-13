@@ -1,5 +1,5 @@
 eddard:
-  build: .
+  build: ./cluster
   ports:
     - "9200:9200"
     - "9300:9300"
@@ -7,7 +7,7 @@ eddard:
     - ./config/eddard:/usr/share/elasticsearch/config
 
 catelyn:
-  build: .
+  build: ./cluster
   ports:
     - "9201:9201"
     - "9301:9301"
@@ -15,7 +15,7 @@ catelyn:
     - ./config/catelyn:/usr/share/elasticsearch/config
 
 arya:
-  build: .
+  build: ./cluster
   ports:
     - "9202:9202"
     - "9302:9302"
