@@ -1,5 +1,6 @@
 {
   "doc" : {
-    "title": "New Title"
-  }
+    "age" : 20
+  },
+  "detect_noop" : true
 }
