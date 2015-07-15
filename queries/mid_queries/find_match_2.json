@@ -1,7 +1,0 @@
-{
-  "query": {
-    "match": {
-      "address": "mill"
-    }
-  }
-}
