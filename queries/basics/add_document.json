@@ -1,9 +1,12 @@
 {
-  "title": "My great article",
-  "content": "Here's my great article's content. So many interesting things are said there.",
+  "name": "Jon Snow",
+  "age": 14,
+  "house": "Stark",
+  "gender": "male",
+  "biography": "Jon Snow is the bastard son of Eddard Stark, the lord of Winterfell. He is the half-brother of Arya, Sansa, Bran, Rickon and Robb.",
   "tags": [
-    "great",
-    "article",
-    "interesting"
+    "stark",
+    "night's watch",
+    "you know nothing"
   ]
 }
