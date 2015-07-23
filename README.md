@@ -1,6 +1,8 @@
 # ELASTICSEARCH GAME OF THRONES CLUSTER
 
-This cluster has been created to help the understanding of this article on ReputationVIP's technical blog :
+This cluster has been created to help the understanding of these articles on ReputationVIP's technical blog :
+
+- [Elasticsearch Is Coming](http://reputationvip.io/elasticsearch-is-coming/)
 
 ## Launch the cluster
 
