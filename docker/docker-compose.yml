@@ -4,7 +4,7 @@ eddard:
     - "9200:9200"
     - "9300:9300"
   volumes:
-    - ./config/eddard:/usr/share/elasticsearch/config
+    - ./cluster/config/eddard:/usr/share/elasticsearch/config
 
 catelyn:
   build: ./cluster
@@ -12,7 +12,7 @@ catelyn:
     - "9201:9201"
     - "9301:9301"
   volumes:
-    - ./config/catelyn:/usr/share/elasticsearch/config
+    - ./cluster/config/catelyn:/usr/share/elasticsearch/config
 
 arya:
   build: ./cluster
@@ -20,4 +20,4 @@ arya:
     - "9202:9202"
     - "9302:9302"
   volumes:
-    - ./config/arya:/usr/share/elasticsearch/config
+    - ./cluster/config/arya:/usr/share/elasticsearch/config
