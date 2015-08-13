@@ -383,3 +383,5 @@ discovery.zen.ping.multicast.enabled: true
 # it unless you need it is recommended (it is disabled by default).
 #
 #http.jsonp.enable: true
+
+action.auto_create_index: false
