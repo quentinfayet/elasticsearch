@@ -1,0 +1,16 @@
+{
+    "create": {
+        "_index": "game_of_thrones",
+        "_type": "character"
+    }
+}
+{
+    "id": "Jon Snow",
+    "house": "Stark",
+    "gender": "male",
+    "biography": "Jon snow is ... dead",
+    "tags": [
+        "dead",
+        "snow"
+    ]
+}
