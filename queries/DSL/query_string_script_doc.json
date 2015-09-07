@@ -1,0 +1,8 @@
+{
+  "fields": ["id", "age"],
+  "query": {
+    "query_string": {
+      "query": "house:Targaryen"
+    }
+  }
+}
