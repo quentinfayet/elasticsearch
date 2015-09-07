@@ -1,8 +1,1 @@
-{
-  "fields": ["id", "age"],
-  "query": {
-    "query_string": {
-      "query": "house:Targaryen"
-    }
-  }
-}
+{"query":{"query_string":{"query":"house:Stark"}},"script_fields":{"future_age":{"script":"doc['age'].value + 16"}}}
