@@ -1,1 +1,12 @@
-{"query":{"query_string":{"query":"house:Stark"}},"script_fields":{"future_age":{"script":"doc['age'].value + 16"}}}
+{
+  "script_fields": {
+    "future_age": {
+      "script": "doc['age'].value + 16"
+    }
+  },
+  "query": {
+    "query_string": {
+      "query": "house:Stark"
+    }
+  }
+}

@@ -384,4 +384,7 @@ discovery.zen.ping.multicast.enabled: true
 #
 #http.jsonp.enable: true
 
-action.auto_create_index: false;
+action.auto_create_index: false;#http.jsonp.enable: true
+
+script.engine.groovy.inline.search: on
+
