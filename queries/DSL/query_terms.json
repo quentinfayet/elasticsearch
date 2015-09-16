@@ -1,0 +1,8 @@
+{
+    "query": {
+        "terms": {
+            "tags": ["snow"],
+            "minimum_match": 1
+        }
+    }
+}
