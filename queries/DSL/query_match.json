@@ -1,0 +1,7 @@
+{
+    "query": {
+        "match": {
+            "biography": "Jon Snow and Cersei Lannister"
+        }
+    }
+}
