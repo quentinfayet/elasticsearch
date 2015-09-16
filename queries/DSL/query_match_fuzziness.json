@@ -1,0 +1,11 @@
+{
+    "query": {
+        "match": {
+            "biography": {
+                "query": "Jon Snow and Cersei Lannister",
+                "operator": "and",
+                "fuzziness": 2
+            }
+        }
+    }
+}
