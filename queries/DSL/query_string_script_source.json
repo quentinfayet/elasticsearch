@@ -1,7 +1,7 @@
 {
   "script_fields": {
     "future_age": {
-      "script": "doc['age'].value + 16"
+      "script": "_source.age + 16"
     }
   },
   "query": {
@@ -10,4 +10,3 @@
     }
   }
 }
-
