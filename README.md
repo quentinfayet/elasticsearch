@@ -3,6 +3,8 @@
 This cluster has been created to help the understanding of these articles on ReputationVIP's technical blog :
 
 - [Elasticsearch Is Coming](http://reputationvip.io/elasticsearch-is-coming/)
+- [Elasticsearch Always Pays Its Debts](http://reputationvip.io/elasticsearch-always-pays-its-debts/)
+
 
 ## Launch the cluster
 
