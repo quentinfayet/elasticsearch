@@ -28,6 +28,9 @@
                 },
                 "tags": {
                     "type": "string"
+                },
+                "weapons": {
+                    "type": "nested"
                 }
             }
         }
