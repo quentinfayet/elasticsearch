@@ -33,6 +33,16 @@
                     "type": "nested"
                 }
             }
+        },
+        "pet": {
+            "_parent": {
+                "type": "character"
+            },
+            "dynamic": "false",
+            "properties": {
+                "type": {"type": "string"},
+                "name": {"type": "string"}
+            }
         }
     }
 }
