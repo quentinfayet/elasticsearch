@@ -1,0 +1,12 @@
+{
+    "query": {
+        "has_child": {
+            "type": "animal",
+            "query" : {
+                "term": {
+                    "name": "Nymeria"
+                }
+            }
+        }
+    }
+}

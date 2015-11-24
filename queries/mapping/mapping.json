@@ -34,14 +34,20 @@
                 }
             }
         },
-        "pet": {
+        "animal": {
             "_parent": {
                 "type": "character"
             },
             "dynamic": "false",
             "properties": {
-                "type": {"type": "string"},
-                "name": {"type": "string"}
+                "genre": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "name": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }
             }
         }
     }
