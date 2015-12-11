@@ -1,0 +1,12 @@
+{
+    "query": {
+        "has_parent": {
+            "type": "character",
+            "query" : {
+                "term": {
+                    "house": "Stark"
+                }
+            }
+        }
+    }
+}
