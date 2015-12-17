@@ -1,0 +1,18 @@
+{
+  "_id": "Arya Stark",
+  "house": "Stark",
+  "gender": "female",
+  "age":17,
+  "biography": "Arya Stark is the younger daughter and third child",
+  "tags": ["stark","needle","faceless god"],
+  "weapons": [
+    {
+      "type": "sword",
+      "name": "Needle"
+    },
+    {
+      "type": "axe",
+      "name": "My beloved Axe"
+    }
+  ]
+}
