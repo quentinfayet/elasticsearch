@@ -1,0 +1,19 @@
+{
+  "query": {
+    "function_score": {
+      "query": {
+        "match": {
+          "house": "Lannister"
+        }
+      },
+      "functions": [
+        {
+          "script_score": {
+            "script": "doc['age'].value / 2"
+          }
+        }
+      ],
+      "boost_mode": "replace"
+    }
+  }
+}

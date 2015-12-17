@@ -1,0 +1,19 @@
+{
+  "query": {
+    "bool": {
+      "must": {
+        "match": {
+          "biography": "Stark"
+        }
+      },
+      "must_not": {
+        "range": {
+          "age": {
+            "from": 20,
+            "to": 30
+          }
+        }
+      }
+    }
+  }
+}
